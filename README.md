@@ -1,4 +1,4 @@
-spine-jade-brunch-skeleton
+Spine-jade-brunch-skeleton
 ==========================
 
-Brunch Skeleton with Spine.js, Jade and Less
+Brunch Skeleton with Spine.js, using LiveScript, Jade and Less.
