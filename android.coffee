@@ -37,7 +37,9 @@ exports.config =
         'test/stylesheets/test.css': /^test/
       order:
         before: ['vendor/styles/normalize.css',
-                'app/styles/jquery.mobile.structure-1.1.1.css']
+                'app/styles/jquery.mobile.structure-1.1.1.css',
+                'app/styles/bootstrap/bootstrap.less',
+                'app/styles/bootstrap/responsive.less']
         after: ['app/styles/app.less']
 
     templates:
