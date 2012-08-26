@@ -15,7 +15,6 @@ exports.config =
   # See http://brunch.readthedocs.org/en/latest/config.html for documentation.
   files:
     javascripts:
-      defaultExtension: 'coffee'
       joinTo:
         'javascripts/app.js': /^app/
         'javascripts/vendor.js': /^vendor/
@@ -31,7 +30,6 @@ exports.config =
         ]
 
     stylesheets:
-      defaultExtension: 'less'
       joinTo:
         'stylesheets/app.css': /^(app|vendor)/
         'test/stylesheets/test.css': /^test/
@@ -41,7 +39,4 @@ exports.config =
         after: ['app/styles/app.less']
 
     templates:
-      defaultExtension: 'jade'
       joinTo: 'javascripts/app.js'
-
-  framework: 'spine'
