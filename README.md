@@ -5,6 +5,8 @@ Brunch Skeleton with Spine.js, using LiveScript, Jade and Less.
 
 Optional boilerplate for jQuery Mobile apps in Android (using Phonegap)
 
+Optional Twitter Bootstrap
+
 ### Install:
 ```bash
 	# you need brunch
@@ -17,6 +19,9 @@ Optional boilerplate for jQuery Mobile apps in Android (using Phonegap)
 	# install node dependencies
 	npm install
 	
+	# add Twitter Bootstrap (optional)
+	brunch generate bootstrap please
+
 	# add jQuery Mobile (optional)
 	brunch generate jquerymobile please 
 	# manually copy the image files to from generators/jquerymobile to /assets/img/
