@@ -2,7 +2,7 @@
   "files": [
     {
       "from": "page.jade",
-      "to": "app/views/pages/{{name}}.ls"
+      "to": "app/views/pages/{{name}}.jade"
     },
     {
       "from": "page.ls",
