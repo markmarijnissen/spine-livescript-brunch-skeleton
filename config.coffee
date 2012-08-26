@@ -24,6 +24,7 @@ exports.config =
         before: [
           'vendor/scripts/console-helper.js',
           'vendor/scripts/jquery-1.7.2.js',
+          'vendor/scripts/bootstrap.min.js',
           'vendor/scripts/jquery.mobile.setup.js',
           'vendor/scripts/jquery.mobile-1.1.1.min.js',
           'vendor/scripts/spine/spine.js'
