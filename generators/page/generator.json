@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "from": "page.jade",
+      "to": "app/views/pages/{{name}}.ls"
+    },
+    {
+      "from": "page.ls",
+      "to": "app/controllers/pages/{{name}}.ls"
+    }
+  ],
+  "dependencies": [  ]
+}

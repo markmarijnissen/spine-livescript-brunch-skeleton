@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "from": "model.jade",
+      "to": "app/models/{{name}}.ls"
+    }
+  ],
+  "dependencies": [  ]
+}

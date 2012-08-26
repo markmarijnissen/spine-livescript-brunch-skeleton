@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "from": "controller.ls",
+      "to": "app/controllers/{{name}}.ls"
+    }
+  ],
+  "dependencies": [  ]
+}

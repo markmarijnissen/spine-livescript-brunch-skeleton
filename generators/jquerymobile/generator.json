@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "from": "app.ls",
+      "to": "app/controllers/app.ls"
+    },
+    {
+      "from": "page.ls",
+      "to": "app/controllers/page.ls"
+    },
+    {
+      "from": "log.ls",
+      "to": "app/log.ls"
+    },
+    {
+      "from": "jquery.mobile.structure-1.1.1.css",
+      "to": "app/styles/jquery.mobile.structure-1.1.1.css"
+    },
+    {
+      "from": "jquery.mobile.theme-1.1.1.css",
+      "to": "app/styles/jquery.mobile.theme-1.1.1.css"
+    },
+    {
+      "from": "icon-18-black.png",
+      "to": "app/assets/icon-18-black.png"
+    },
+    {
+      "from": "icon-36-black.png",
+      "to": "app/assets/icon-36-black.png"
+    },
+    {
+      "from": "icon-18-white.png",
+      "to": "app/assets/icon-18-white.png"
+    },
+    {
+      "from": "icon-36-white.png",
+      "to": "app/assets/icon-36-white.png"
+    }
+  ],
+  "dependencies": [  ]
+}

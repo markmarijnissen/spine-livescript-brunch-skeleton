@@ -1,0 +1,3 @@
+module.exports = class {{#camelize}}{{name}}{{/camelize}} extends Spine.Controller
+	->
+		super ...
