@@ -4,8 +4,6 @@
 	adds render function to the controller
 */
 class Page extends Spine.Controller
-	@ <<< Spine.Controller #why is this needed ?
-
 	->
 		super ...
 		@log = require('log')
