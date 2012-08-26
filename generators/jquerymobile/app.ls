@@ -19,24 +19,24 @@ class AppController extends Spine.Controller
 		# set global var (useful for debugging)
 		window.App = @
 		# add routes	
-		for route,func of @routing()
+		for route,func of @routing!
 			Spine.Route.add route,func
 		$ ~>
 			shim = no
-			Spine.Route.setup({history:no,shim:shim})
+			Spine.Route.setup({-history, shim})
 			if shim then @navigate('/')
 		
 	# render a page-controller (given a page-name)
-	goto: (page,options) ->
-		@log 'goto',page
+	goto: (page, options) ->
+		@log('goto', page)	
 		#instantiate if a class is given
 		if typeof @pages[page] == "function"
 			@pages[page] = new @pages[page](options)
 		#render if possible
-		@pages[page].render(options) if @pages[page]
+		that.render(options) if @pages[page]
 		#error when page-controller undefined
 		unless @pages[page]
 			@log.error("Page not found",page)
-			@trigger('error',"Page not found",page);
+			@trigger('error',"Page not found",page)
 	
 module.exports = AppController
