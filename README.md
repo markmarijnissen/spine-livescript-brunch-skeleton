@@ -7,13 +7,25 @@ Optional boilerplate for jQuery Mobile apps in Android (using Phonegap)
 
 ### Install:
 ```bash
-	npm install brunch -g # if you don't have brunch already
-	git clone https://github.com/markmarijnissen/spine-livescript-brunch-skeleton.git
+	# you need brunch
+	npm install brunch -g 
+	
+	# clone skeleton
+	git clone https://github.com/markmarijnissen/spine-livescript-brunch-skeleton.git myapp
+	cd myapp
+	
+	# install node dependencies
 	npm install
-	brunch generate jquerymobile please # optional, jquery mobile skeleton
-	# copy the image files to from generators/jquerymobile to /assets/img/
+	
+	# add jQuery Mobile (optional)
+	brunch generate jquerymobile please 
+	# manually copy the image files to from generators/jquerymobile to /assets/img/
+	
+	# generate a page (optional)
 	brunch generate page home
-	# add home page controller in /app/controllers/app.ls
+	# edit app controller (/app/controllers/app.ls) to include this page
+	
+	# generate other stuff (optional)
 	brunch generate model mymodel
 	brunch generate controller mycontroller
 ```
