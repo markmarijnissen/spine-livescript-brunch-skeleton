@@ -21,10 +21,11 @@ Optional Twitter Bootstrap
 	
 	# add Twitter Bootstrap (optional)
 	brunch generate bootstrap please
+	# manually copy the image files from generators/bootstrap to app/assets/img/
 
 	# add jQuery Mobile (optional)
 	brunch generate jquerymobile please 
-	# manually copy the image files to from generators/jquerymobile to /assets/img/
+	# manually copy the image files from generators/jquerymobile to app/assets/img/
 	
 	# generate a page (optional)
 	brunch generate page home
