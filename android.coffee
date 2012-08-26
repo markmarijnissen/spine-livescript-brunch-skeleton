@@ -4,13 +4,15 @@ startsWith = (string, substring) ->
   string.lastIndexOf(substring, 0) is 0
 
 exports.config =
+  minify: true
+
   paths:
-    public: 'builds/web'
+    public: 'builds/android/assets/www'
 
   conventions:
     ignored: (path) ->
       basename = sysPath.basename(path)
-      (startsWith basename, '_') or (/-gap\.(j|l)s$/.test(basename))
+      (startsWith basename, '_') or (/(-web\.(j|l)s$|\.ogg$)/.test(basename))
 
   # See http://brunch.readthedocs.org/en/latest/config.html for documentation.
   files:

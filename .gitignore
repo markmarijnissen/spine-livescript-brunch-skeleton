@@ -7,11 +7,16 @@ lib-cov
 *.pid
 *.gz
 
+*.sublime*
+
 pids
 logs
 results
 
-public
-
 node_modules
+builds/android/assets/www*
+builds/android/bin*
+builds/\.*
+builds/android/\.*
+builds/web*
 npm-debug.log
