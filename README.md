@@ -13,6 +13,7 @@ Optional boilerplate for jQuery Mobile apps in Android (using Phonegap)
 	brunch generate jquerymobile please # optional, jquery mobile skeleton
 	# copy the image files to from generators/jquerymobile to /assets/img/
 	brunch generate page home
+	# add home page controller in /app/controllers/app.ls
 	brunch generate model mymodel
 	brunch generate controller mycontroller
 ```
