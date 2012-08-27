@@ -167,7 +167,15 @@
 	{
 	"from": "wells.less",
 	 "to": "app/styles/bootstrap/_wells.less"
-	}
+	},
+    {
+      "from": "glyphicons-halflings-white.png",
+      "to": "app/assets/img/glyphicons-halflings-white.png"
+    },
+    {
+      "from": "glyphicons-halflings.png",
+      "to": "app/assets/img/glyphicons-halflings.png"
+    }
   ],
   "dependencies": [  ]
 }

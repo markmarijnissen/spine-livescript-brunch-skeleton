@@ -39,6 +39,22 @@
     {
       "from": "jquery.mobile.theme-1.1.1.css",
       "to": "app/styles/jquery.mobile.theme-1.1.1.css"
+    },
+    {
+      "from": "icons-18-black.png",
+      "to": "app/assets/img/icons-18-black.png"
+    },
+    {
+      "from": "icons-36-black.png",
+      "to": "app/assets/img/icons-36-black.png"
+    },
+    {
+      "from": "icons-18-white.png",
+      "to": "app/assets/img/icons-18-white.png"
+    },
+    {
+      "from": "icons-36-white.png",
+      "to": "app/assets/img/icons-36-white.png"
     }
   
   ],

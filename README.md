@@ -9,8 +9,8 @@ Optional Twitter Bootstrap
 
 ### Install:
 ```bash
-	# you need brunch
-	npm install brunch -g 
+	# you need brunch >1.4.3
+	npm install -g git://github.com/brunch/brunch.git
 	
 	# clone skeleton
 	git clone https://github.com/markmarijnissen/spine-livescript-brunch-skeleton.git myapp
@@ -21,11 +21,9 @@ Optional Twitter Bootstrap
 	
 	# add Twitter Bootstrap (optional)
 	brunch generate bootstrap please
-	# manually copy the image files from generators/bootstrap to app/assets/img/
-
+	
 	# add jQuery Mobile (optional)
 	brunch generate jquerymobile please 
-	# manually copy the image files from generators/jquerymobile to app/assets/img/
 	
 	# generate a page (optional)
 	brunch generate page home
