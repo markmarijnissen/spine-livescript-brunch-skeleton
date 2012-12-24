@@ -7,7 +7,7 @@ class Page extends Spine.Controller
     @el.addClass(@constructor.displayName)
     
   render:  ->
-  	# create page-element and render
+    # create page-element and render
     page = $('<div data-role="page">')
       ..html @template(@) if @template
     # hook your own rendering-logic on the render event
@@ -16,7 +16,7 @@ class Page extends Spine.Controller
     @el 
       ..append(page)
       ..appendTo('body') 
-    $.mobile.changePage(page, options with {-changeHash})
+    $.mobile.changePage(page, {changeHash: no})
     # old page is cleaned up in jquery.mobile.setup.js
     # but @el remains!
 

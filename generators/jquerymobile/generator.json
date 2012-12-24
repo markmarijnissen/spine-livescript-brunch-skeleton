@@ -5,10 +5,6 @@
       "to": "app/controllers/app.ls"
     },
     {
-      "from": "index.ls",
-      "to": "app/index.ls"
-    } ,
-    {
       "from": "index.html",
       "to": "app/assets/index.html"
     },

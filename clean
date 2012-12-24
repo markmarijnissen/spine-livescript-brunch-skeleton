@@ -5,6 +5,8 @@
 rm -rf app/*
 rm -rf builds/web/*
 rm -rf android/assets/www/*
+rm vendor/scripts/jquery.* -f
+rm vendor/scripts/cordova*
 echo "" > app/.gitkeep
 echo "" > builds/web/.gitkeep
 echo "" > builds/android/assets/www/.gitkeep

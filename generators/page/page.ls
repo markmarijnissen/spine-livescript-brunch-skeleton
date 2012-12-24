@@ -1,5 +1,5 @@
 Page = require('controllers/page')
-template = require ('views/pages/{{name}}')
+template = require ('views/{{name}}')
 
 class {{#camelize}}{{name}}{{/camelize}} extends Page
   ->

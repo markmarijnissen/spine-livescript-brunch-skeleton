@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "from": "model.jade",
+      "from": "model.ls",
       "to": "app/models/{{name}}.ls"
     }
   ],
