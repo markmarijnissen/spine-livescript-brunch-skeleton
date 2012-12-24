@@ -1,32 +1,23 @@
-/*
-	Page
-
-	adds render function to the controller
-*/
+#  Page
+#  adds render function to the controller
 class Page extends Spine.Controller
-	->
-		super ...
-		@log = require('log')
-		# for easy styling of page-specific elements
-		# add className as css-class
-		@el.addClass(@constructor.displayName)
-		
-	# render template
-	render: (options = {}) ->
-		# create a fresh new element, 
-		# otherwise the jqm-magic won't happen on second render
-		page = $('<div data-role="page">')
-		# render page
-			..html @template(@) if @template
-		@el
-		# add page to controller element
-			..append(page)
-			# add page to the DOM so jqm can change it
-			#doesn't append twice on second render - only moves it
-			..appendTo('body') 
-		# change page
-		$.mobile.changePage(page, options with {-changeHash})
-		# old page is cleaned up in jquery.mobile.setup.js
-		# but @el remains!
+  ->
+    super ...
+    @log = require('log')
+    @el.addClass(@constructor.displayName)
+    
+  render:  ->
+  	# create page-element and render
+    page = $('<div data-role="page">')
+      ..html @template(@) if @template
+    # hook your own rendering-logic on the render event
+    @trigger 'render',page
+    # add to DOM and do the JQM magic.
+    @el 
+      ..append(page)
+      ..appendTo('body') 
+    $.mobile.changePage(page, options with {-changeHash})
+    # old page is cleaned up in jquery.mobile.setup.js
+    # but @el remains!
 
 module.exports = Page

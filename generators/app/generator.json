@@ -1,0 +1,11 @@
+{
+  "files": [
+  	{
+  		"from":"index.html",
+  		"to":"app/assets/{{name}}.html"
+  	}
+  ],
+  "dependencies": [  
+  	{"name": "controller", "params": "{{name}}"}
+  ]
+}

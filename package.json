@@ -16,6 +16,8 @@
     "test": "brunch test"
   },
   "dependencies": {
+    "LiveScript":">=1.0.0",
+    "express":">=3.0.0rc4",
     "javascript-brunch": ">= 1.0 < 1.4",
     "LiveScript-brunch": "1.4.1",
     "coffee-script-brunch": ">= 1.0 < 1.4",

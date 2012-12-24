@@ -23,10 +23,10 @@ exports.config =
       order:
         before: [
           'vendor/scripts/console-helper.js',
-          'vendor/scripts/jquery-1.7.2.js',
+          'vendor/scripts/jquery-1.8.2.js',
           'vendor/scripts/bootstrap.min.js',
           'vendor/scripts/jquery.mobile.setup.js',
-          'vendor/scripts/jquery.mobile-1.1.1.min.js',
+          'vendor/scripts/jquery.mobile-1.2.0.js',
           'vendor/scripts/spine/spine.js'
         ]
 
@@ -36,7 +36,7 @@ exports.config =
         'test/stylesheets/test.css': /^test/
       order:
         before: ['vendor/styles/normalize.css',
-                'app/styles/jquery.mobile.structure-1.1.1.css',
+                'app/styles/jquery.mobile.structure-1.2.0.css',
                 'app/styles/bootstrap/bootstrap.less',
                 'app/styles/bootstrap/responsive.less']
         after: ['app/styles/app.less']
@@ -44,4 +44,9 @@ exports.config =
     templates:
       defaultExtension: 'jade'
       joinTo: 'javascripts/app.js'
+
+  server:
+    path: 'server/server.js'
+    base: '/'
+    run: yes
 

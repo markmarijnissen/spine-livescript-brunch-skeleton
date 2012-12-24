@@ -1,0 +1,10 @@
+#/bin/bash
+#
+# clean all generated stuff
+#
+rm -rf app/*
+rm -rf builds/web/*
+rm -rf android/assets/www/*
+echo "" > app/.gitkeep
+echo "" > builds/web/.gitkeep
+echo "" > builds/android/assets/www/.gitkeep

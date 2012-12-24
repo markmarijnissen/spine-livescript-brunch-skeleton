@@ -3,11 +3,13 @@
 # provides some log control by filters en enabling
 #
 # Set them here:
-options = {+enabled, -logAsTextOnMobile,
+options = 
+	enabled: yes
+	logAsTextOnMobile: no
 	filter:
 		include: //.*//
 		exclude: no #/postpone|timelog/
-}
+
 # android-eclipse can only handle text
 # weinre has a proper console and can handle everything
 

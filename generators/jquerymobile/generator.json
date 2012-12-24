@@ -29,16 +29,16 @@
       "to": "vendor/scripts/jquery.mobile.setup.js"
     },
     {
-      "from": "jquery.mobile-1.1.1.js",
-      "to": "vendor/scripts/jquery.mobile-1.1.1.js"
+      "from": "jquery.mobile-1.2.0.js",
+      "to": "vendor/scripts/jquery.mobile-1.2.0.js"
     },
     {
-      "from": "jquery.mobile.structure-1.1.1.css",
-      "to": "app/styles/jquery.mobile.structure-1.1.1.css"
+      "from": "jquery.mobile.structure-1.2.0.css",
+      "to": "app/styles/jquery.mobile.structure-1.2.0.css"
     },
     {
-      "from": "jquery.mobile.theme-1.1.1.css",
-      "to": "app/styles/jquery.mobile.theme-1.1.1.css"
+      "from": "jquery.mobile.theme-1.2.0.css",
+      "to": "app/styles/jquery.mobile.theme-1.2.0.css"
     },
     {
       "from": "icons-18-black.png",
@@ -55,6 +55,10 @@
     {
       "from": "icons-36-white.png",
       "to": "app/assets/img/icons-36-white.png"
+    },
+    {
+      "from": "ajax-loader.gif",
+      "to": "app/assets/img/ajax-loader.gif"
     }
   
   ],

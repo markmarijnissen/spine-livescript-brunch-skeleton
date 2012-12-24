@@ -2,11 +2,11 @@
   "files": [
     {
       "from": "page.jade",
-      "to": "app/views/pages/{{name}}.jade"
+      "to": "app/views/{{name}}.jade"
     },
     {
       "from": "page.ls",
-      "to": "app/controllers/pages/{{name}}.ls"
+      "to": "app/controllers/{{name}}.ls"
     }
   ],
   "dependencies": [  ]

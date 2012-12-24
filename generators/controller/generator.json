@@ -5,5 +5,7 @@
       "to": "app/controllers/{{name}}.ls"
     }
   ],
-  "dependencies": [  ]
+  "dependencies": [ 
+  	{"name": "view", "params": "{{name}}"}
+  ]
 }
